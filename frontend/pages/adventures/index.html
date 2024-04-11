@@ -145,8 +145,9 @@
         function selectDuration(event) {
             // TODO: MODULE_FILTERS
             // 1. Change the DOM to show the selected duration filter. Use the provided input event
-            // 2. Invoke saveFiltersToLocalStorage here
-
+            // 2. Invoke saveFiltersToLocalStorage here]
+            const selectedDuration = event.target.value;
+            filters["duration"] = selectDuration;
         }
 
         //executed when clear button is clicked on duration filter dropdown

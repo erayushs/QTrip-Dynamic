@@ -65,7 +65,6 @@ function filterByCategory(list, categoryList) {
   // TODO: MODULE_FILTERS
   // 1. Filter adventures based on their Category and return filtered list
 
-
 }
 
 // filters object looks like this filters = { duration: "", category: [] };
